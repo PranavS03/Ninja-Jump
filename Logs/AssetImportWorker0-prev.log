@@ -1,0 +1,151 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/Pranav/Desktop/Unity_Projects/Ninja Jump
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59460
+Successfully changed project path to: /Users/Pranav/Desktop/Unity_Projects/Ninja Jump
+/Users/Pranav/Desktop/Unity_Projects/Ninja Jump
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/Pranav/Desktop/Unity_Projects/Ninja Jump/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-29 02:57:42.043 Unity[41548:2686107] (null) preferred device: Apple M1 (high power)
+2021-06-29 02:57:42.043 Unity[41548:2686107] Metal devices available: 1
+2021-06-29 02:57:42.043 Unity[41548:2686107] 0: Apple M1 (high power)
+2021-06-29 02:57:42.043 Unity[41548:2686107] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000499 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 40.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.983 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001284 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 37.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.314 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.9 MB.
+System memory in use after: 184.8 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2670.
+Total: 1.687250 ms (FindLiveObjects: 0.153083 ms CreateObjectMapping: 0.040375 ms MarkObjects: 1.383416 ms  DeleteObjects: 0.109458 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Textures/black.jpeg
+  artifactKey: Guid(0ace3b74ad2a84bce8cc555a83bcfb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/black.jpeg using Guid(0ace3b74ad2a84bce8cc555a83bcfb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43aca6ba77c3b136ca2bdeaeb4851aee') in 0.502946 seconds
+  Import took 0.506594 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002093 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.293 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395206) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.8 MB.
+System memory in use after: 189.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2680.
+Total: 1.599458 ms (FindLiveObjects: 0.140667 ms CreateObjectMapping: 0.042667 ms MarkObjects: 1.322084 ms  DeleteObjects: 0.093125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 341.255230 seconds.
+  path: Assets/Scripts/BodyControl.cs
+  artifactKey: Guid(0660cd757a536c245bf9508dc77a1736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BodyControl.cs using Guid(0660cd757a536c245bf9508dc77a1736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583197d9cfd2e9d6c3d4121553a8c737') in 0.247871 seconds
+  Import took 0.250953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001782 seconds.
+  path: Assets/Scripts/BodyControl.cs
+  artifactKey: Guid(0660cd757a536c245bf9508dc77a1736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BodyControl.cs using Guid(0660cd757a536c245bf9508dc77a1736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583197d9cfd2e9d6c3d4121553a8c737') in 0.001719 seconds
+  Import took 0.004509 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.244 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395206) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.3 MB.
+System memory in use after: 194.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2684.
+Total: 1.559458 ms (FindLiveObjects: 0.110042 ms CreateObjectMapping: 0.043833 ms MarkObjects: 1.308542 ms  DeleteObjects: 0.096416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.7 MB.
+System memory in use after: 151.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2684.
+Total: 2.391791 ms (FindLiveObjects: 0.144584 ms CreateObjectMapping: 0.043041 ms MarkObjects: 2.117667 ms  DeleteObjects: 0.086000 ms)
+
