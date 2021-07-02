@@ -14,6 +14,7 @@ public class BodyControl : MonoBehaviour
     public GameObject GameOver;
     public GameObject NextWindow;
     
+    
     private void Awake(){
         bd = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
