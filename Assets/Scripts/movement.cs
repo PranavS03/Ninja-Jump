@@ -23,26 +23,32 @@ public class movement : MonoBehaviour
     public void PointerDownLeft()
     {
         moveLeft = true;
+        
     }
 
     public void PointerUpLeft()
     {
         moveLeft = false;
+        
     }
 
     public void PointerDownRight()
     {
         moveRight = true;
+       
+        
     }
 
     public void PointerUpRight()
     {
         moveRight = false;
+        
     }
 
     void Update()
     {
         MovementPlayer();
+        
     }
 
     void MovementPlayer()
@@ -52,6 +58,8 @@ public class movement : MonoBehaviour
             horizontalMove = -speed;
             anim.SetBool("isRunning",true);
             
+            
+            
 
 
         }
@@ -60,13 +68,18 @@ public class movement : MonoBehaviour
         {
             horizontalMove = speed;
             anim.SetBool("isRunning",true);
+            
+            
         }
 
         else
         {
             horizontalMove = 0;
+            
+
         }
     }
+    
 
     private void FixedUpdate()
     {

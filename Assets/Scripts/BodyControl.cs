@@ -1,4 +1,4 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -13,9 +13,11 @@ public class BodyControl : MonoBehaviour
     public Animator anim;
     public GameObject GameOver;
     public GameObject NextWindow;
-    
+
+  
     
     private void Awake(){
+
         bd = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -33,7 +35,9 @@ public class BodyControl : MonoBehaviour
         anim.SetBool("isJumping",false);   
         if (Input.GetKey(KeyCode.UpArrow))
         {
+
             up();
+            
             
 
          
@@ -61,6 +65,9 @@ public class BodyControl : MonoBehaviour
     public void up(){
         bd.velocity = Vector2.up * UP;///jumping
         anim.SetBool("isJumping",true);
+        SoundManager.playjump();
+        
+        
         }
     private void left(){
         bd.velocity = Vector2.left * direction;///moving left
@@ -75,6 +82,7 @@ public class BodyControl : MonoBehaviour
             GameOver.SetActive(true);
             bd.bodyType=RigidbodyType2D.Static;}
         if (col.gameObject.tag == "door"){
+            SoundManager.playvictory();
             NextWindow.SetActive(true);
             bd.bodyType=RigidbodyType2D.Static;}
         
