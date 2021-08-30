@@ -9,14 +9,14 @@ using CodeMonkey.Utils;
 
 
 
-public class NextWindow2 : MonoBehaviour
+public class GameOverWindow2nd : MonoBehaviour
 {
 
     private void Awake(){
        
 
         transform.Find("Menu").GetComponent<Button_UI>().ClickFunc = () => { UnityEngine.SceneManagement.SceneManager.LoadScene("Levels"); };
-        transform.Find("Next").GetComponent<Button_UI>().ClickFunc = () => { UnityEngine.SceneManagement.SceneManager.LoadScene("Level2"); };
+        transform.Find("Retry").GetComponent<Button_UI>().ClickFunc = () => { UnityEngine.SceneManagement.SceneManager.LoadScene("Level2"); };
         
         }
 

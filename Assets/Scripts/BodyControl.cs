@@ -7,7 +7,7 @@ using System;
 public class BodyControl : MonoBehaviour
 {
     private Rigidbody2D bd;
-    private const float UP=20f;
+    private const float UP=15f;
     private const float direction=10f;
     private bool facingRight=true;
     public Animator anim;

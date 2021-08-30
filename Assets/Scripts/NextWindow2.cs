@@ -9,7 +9,7 @@ using CodeMonkey.Utils;
 
 
 
-public class NextWindow2 : MonoBehaviour
+public class NextWindow : MonoBehaviour
 {
 
     private void Awake(){
